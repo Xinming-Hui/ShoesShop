@@ -34,6 +34,7 @@
 }
 .newInRow {
   height: 85vh;
+  margin-bottom: 5px;
 }
 .newInImg {
   background-image: url(../imgs/index/manWomenStyle.jpg);
@@ -45,6 +46,7 @@
 }
 .womenImgRow {
   height: 85vh;
+  margin-bottom: 5px;
 }
 .womenImg1 {
   background-image: url(../imgs/index/womenStyle.jpg);
@@ -52,16 +54,42 @@
   background-position: center;
 }
 .womenImg2 {
-    background-image: url(../imgs/index/womenStyle2.jpg);
+  background-image: url(../imgs/index/womenStyle2.jpg);
   background-size: cover;
   background-position: center;
 }
 .womenShopButton {
-  height: 5vh;
-  background-color: dimgray;
+  height: 10vh;
+  margin-bottom: 5px;
+  background-color: #720303;
 }
+.confortZone{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.shoppingButtonWomen{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 200px;
+  background-color: #4B4B4E;
+  border-radius: 5px;
+  margin-left: 43%;
+}
+.shoppingButtonWomen:hover {
+      transform: scale(1.2); 
+      color: #720303;
+    }
 .manImgRow {
   height: 85vh;
+  margin-bottom: 5px;
 }
 .manImg1 {
   background-image: url(../imgs/index/manStyle.jpg);
@@ -74,17 +102,77 @@
   background-position: center;
 }
 .manShopButton {
-  height: 5vh;
-  background-color: dimgray;
+  height: 10vh;
+  margin-bottom: 5px;
+  background-color: #620774;
 }
+
+.exculisiveStyle{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.shoppingButtonMan{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 200px;
+  background-color: #4B4B4E;
+  border-radius: 5px;
+  margin-left: 43%;
+}
+.shoppingButtonMan:hover {
+      transform: scale(1.2); 
+      color: #620774;
+    }
+
 .contactRow {
-  height: 5vh;
-  background-color: darkgreen;
+  height: 6vh;
+  background-color: darkgray;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: #090868;
 }
 .contactInformationRow {
-  height: 20vh;
-  background-color: lightgrey;
+  height: 30vh;
+
 }
+.footerLogoCol{
+  align-content: center;
+}
+.contactNumbersCol{
+  font-family: "Roboto", sans-serif;
+}
+
+.businessHoursCol{
+  font-family: "Roboto", sans-serif;
+}
+.footerLogo{
+  width: 170px;
+  height: auto;
+  padding-left: 35px;
+
+}
+.contactText{
+  font-weight: bold;
+  font-size: 16px;
+}
+.businessHoursText{
+  font-weight: bold;
+  font-size: 16px;
+}
+
 
 .avatar {
   width: 31px;
