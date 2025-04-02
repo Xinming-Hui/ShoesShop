@@ -43,7 +43,39 @@
 }
 .newInText {
   background-color: #05098A;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
+.newSeasonText{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.shoppingButtonNewIn{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 400px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-left: 2%;
+  height: 60px;
+
+}
+.shoppingButtonNewIn:hover {
+      transform: scale(1.2); 
+      color: #05098A;
+    }
+
 .womenImgRow {
   height: 85vh;
   margin-bottom: 5px;
