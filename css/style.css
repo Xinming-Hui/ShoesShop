@@ -33,35 +33,45 @@
   background-color: dimgray;
 }
 .newInRow {
-  height: 25vh;
+  height: 85vh;
 }
 .newInImg {
-  background-color: grey;
+  background-image: url(../imgs/index/manWomenStyle.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .newInText {
-  background-color: red;
+  background-color: #05098A;
 }
 .womenImgRow {
-  height: 50vh;
+  height: 85vh;
 }
 .womenImg1 {
-  background-color: red;
+  background-image: url(../imgs/index/womenStyle.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .womenImg2 {
-  background-color: yellow;
+    background-image: url(../imgs/index/womenStyle2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .womenShopButton {
   height: 5vh;
   background-color: dimgray;
 }
 .manImgRow {
-  height: 50vh;
+  height: 85vh;
 }
 .manImg1 {
-  background-color: red;
+  background-image: url(../imgs/index/manStyle.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .manImg2 {
-  background-color: yellow;
+  background-image: url(../imgs/index/manStyle2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .manShopButton {
   height: 5vh;
