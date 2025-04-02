@@ -206,8 +206,17 @@
 }
 
 
-.avatar {
+.logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+.icon {
   width: 31px;
   height: auto;
   object-fit: contain;
+}
+
+.mbm5 {
+  margin-bottom: -5px;
 }
