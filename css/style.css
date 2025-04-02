@@ -1,77 +1,83 @@
 .test {
   font-size: large;
 }
-.logoRow{
-  height:8vh; 
+.logoRow {
+  height: 8vh;
 }
-.headingLogo{
-  background-color: green; 
+.headingLogo {
+  background-color: green;
 }
-.createAccount{
+.createAccount {
   background-color: yellow;
 }
-.shoppingBag{
+.shoppingBag {
   background-color: blue;
 }
-.mainContact{
+.mainContact {
   background-color: deeppink;
 }
-.shopNameRow{
-  height:6vh; 
+.shopNameRow {
+  height: 6vh;
 }
-.countryLogo{
-  background-color: yellow; 
-}
-.search{
-  background-color: grey;
-}
-.shopName{
-  background-color: red;
-}
-.navigationRow{
-  height:5vh; 
-  background-color: dimgray;
-}
-.newInRow{
-  height:25vh; 
-}
-.newInImg{
-  background-color: grey;
-}
-.newInText{
-  background-color: red;
-}
-.womenImgRow{
-  height:50vh; 
-}
-.womenImg1{
-  background-color: red;
-}
-.womenImg2{
+.countryLogo {
   background-color: yellow;
 }
-.womenShopButton{
-  height:5vh; 
-  background-color: dimgray;
+.search {
+  background-color: grey;
 }
-.manImgRow{
-  height:50vh; 
-}
-.manImg1{
+.shopName {
   background-color: red;
 }
-.manImg2{
-  background-color: yellow;
-}
-.manShopButton{
-  height:5vh; 
+.navigationRow {
+  height: 5vh;
   background-color: dimgray;
 }
-.contactRow{
-  height:5vh; 
+.newInRow {
+  height: 25vh;
+}
+.newInImg {
+  background-color: grey;
+}
+.newInText {
+  background-color: red;
+}
+.womenImgRow {
+  height: 50vh;
+}
+.womenImg1 {
+  background-color: red;
+}
+.womenImg2 {
+  background-color: yellow;
+}
+.womenShopButton {
+  height: 5vh;
+  background-color: dimgray;
+}
+.manImgRow {
+  height: 50vh;
+}
+.manImg1 {
+  background-color: red;
+}
+.manImg2 {
+  background-color: yellow;
+}
+.manShopButton {
+  height: 5vh;
+  background-color: dimgray;
+}
+.contactRow {
+  height: 5vh;
   background-color: darkgreen;
 }
-.contactInformationRow{
-  height:20vh; 
+.contactInformationRow {
+  height: 20vh;
   background-color: lightgrey;
+}
+
+.avatar {
+  width: 31px;
+  height: auto;
+  object-fit: contain;
 }
