@@ -1,6 +1,3 @@
-.test {
-  font-size: large;
-}
 .logoRow {
   height: 8vh;
 }
@@ -26,8 +23,14 @@
   background-color: grey;
 }
 .shopName {
-  background-color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
 }
+.shopSubtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
 .navigationRow {
   height: 5vh;
   background-color: dimgray;
@@ -42,12 +45,12 @@
   background-position: center;
 }
 .newInText {
-  background-color: #05098A;
+  background-color: #05098a;
   text-align: center;
   justify-content: center;
   align-content: center;
 }
-.newSeasonText{
+.newSeasonText {
   color: white;
   text-align: center;
   justify-content: center;
@@ -56,7 +59,7 @@
   font-size: 40px;
 }
 
-.shoppingButtonNewIn{
+.shoppingButtonNewIn {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -69,12 +72,11 @@
   border-radius: 5px;
   margin-left: 2%;
   height: 60px;
-
 }
 .shoppingButtonNewIn:hover {
-      transform: scale(1.2); 
-      color: #05098A;
-    }
+  transform: scale(1.2);
+  color: #05098a;
+}
 
 .womenImgRow {
   height: 85vh;
@@ -95,14 +97,14 @@
   margin-bottom: 5px;
   background-color: #720303;
 }
-.confortZone{
+.confortZone {
   color: white;
   text-align: center;
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-.shoppingButtonWomen{
+.shoppingButtonWomen {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -111,14 +113,14 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   width: 200px;
-  background-color: #4B4B4E;
+  background-color: #4b4b4e;
   border-radius: 5px;
   margin-left: 43%;
 }
 .shoppingButtonWomen:hover {
-      transform: scale(1.2); 
-      color: #720303;
-    }
+  transform: scale(1.2);
+  color: #720303;
+}
 .manImgRow {
   height: 85vh;
   margin-bottom: 5px;
@@ -139,7 +141,7 @@
   background-color: #620774;
 }
 
-.exculisiveStyle{
+.exculisiveStyle {
   color: white;
   text-align: center;
   justify-content: center;
@@ -147,7 +149,7 @@
   font-weight: bold;
 }
 
-.shoppingButtonMan{
+.shoppingButtonMan {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -156,14 +158,14 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   width: 200px;
-  background-color: #4B4B4E;
+  background-color: #4b4b4e;
   border-radius: 5px;
   margin-left: 43%;
 }
 .shoppingButtonMan:hover {
-      transform: scale(1.2); 
-      color: #620774;
-    }
+  transform: scale(1.2);
+  color: #620774;
+}
 
 .contactRow {
   height: 6vh;
@@ -178,33 +180,30 @@
 }
 .contactInformationRow {
   height: 30vh;
-
 }
-.footerLogoCol{
+.footerLogoCol {
   align-content: center;
 }
-.contactNumbersCol{
+.contactNumbersCol {
   font-family: "Roboto", sans-serif;
 }
 
-.businessHoursCol{
+.businessHoursCol {
   font-family: "Roboto", sans-serif;
 }
-.footerLogo{
+.footerLogo {
   width: 170px;
   height: auto;
   padding-left: 35px;
-
 }
-.contactText{
+.contactText {
   font-weight: bold;
   font-size: 16px;
 }
-.businessHoursText{
+.businessHoursText {
   font-weight: bold;
   font-size: 16px;
 }
-
 
 .logo {
   width: 60px;
@@ -216,7 +215,19 @@
   height: auto;
   object-fit: contain;
 }
-
+.sicon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+.serach {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
 .mbm5 {
   margin-bottom: -5px;
+}
+
+.nitem {
+  font-family: "Roboto", sans-serif !important;
 }
