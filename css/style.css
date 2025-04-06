@@ -231,3 +231,19 @@
 .nitem {
   font-family: "Roboto", sans-serif !important;
 }
+
+.nicon {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.product {
+  border: 1px solid lightgray;
+}
+
+.price {
+  display: none;
+  margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+}
