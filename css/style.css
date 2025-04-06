@@ -239,13 +239,14 @@
 }
 
 .product {
-  border: 1px solid lightgray;
+  height: 400px !important;
 }
 
 .price {
   display: none;
-  margin-top: 8px;
   font-family: "Roboto", sans-serif;
+  margin-top: auto;
+  margin-bottom: 4px;
 }
 .spinwheel {
   position: fixed;
