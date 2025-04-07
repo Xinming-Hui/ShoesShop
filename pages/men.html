@@ -99,7 +99,7 @@
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
-              <p class="price">€99</p>
+              <p class="iprice">€99</p>
             </div>
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
@@ -111,7 +111,7 @@
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
-              <p class="price">€59</p>
+              <p class="iprice">€59</p>
             </div>
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
@@ -123,7 +123,7 @@
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
-              <p class="price">€92</p>
+              <p class="iprice">€92</p>
             </div>
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
@@ -135,7 +135,7 @@
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
-              <p class="price">€77</p>
+              <p class="iprice">€77</p>
             </div>
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
@@ -147,7 +147,7 @@
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
-              <p class="price">€126</p>
+              <p class="iprice">€126</p>
             </div>
           </div>
         </div>
@@ -186,11 +186,11 @@
     </div>
 
     <script>
-      //Display price info
+      //Display iprice info
       const imgs = document.querySelectorAll("img");
       imgs.forEach((img) => {
         img.addEventListener("click", (e) => {
-          const priceE = e.target.closest(".card").querySelector(".price");
+          const priceE = e.target.closest(".card").querySelector(".iprice");
           priceE.style.display = "block";
         });
       });
