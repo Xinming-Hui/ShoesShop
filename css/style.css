@@ -226,47 +226,321 @@
 }
 .mbm5 {
   margin-bottom: -5px;
+  font-family: "Roboto", sans-serif;
+  font-size:23px;
+  color: #021055;
+  font-weight: bold;
+}
+.shopSubtitle {
+  font-family: "Roboto", sans-serif;
+  font-size:18px;
+  color: #021055;
 }
 
 .nitem {
   font-family: "Roboto", sans-serif !important;
 }
+.nav-item{
+  font-family:"Roboto", sans-serif;
+  font-size: 20px;
 
-.nicon {
-  width: 200px;
-  height: auto;
-  object-fit: contain;
 }
 
-.product {
-  height: 400px !important;
+
+
+/*Women page style*/
+.heels{
+  padding-left: 20px;
 }
 
-.price {
+.heelsWhite{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.heelsWhite:hover{
+  transform: scale(1.1);
+}
+#price{
+  font-family:"Roboto", sans-serif;
+  font-size: 17px;
+
+}
+#heelsWhiteDef {
+  font-family: "Signika Negative", sans-serif;
   display: none;
-  font-family: "Roboto", sans-serif;
-  margin-top: auto;
-  margin-bottom: 4px;
-}
-.spinwheel {
-  position: fixed;
-  background-color: white;
-  padding: 2px;
-  bottom: 30px;
-  left: 30px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+.heelsBurgundy{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.rotate {
-  animation: spinning 8s linear infinite;
+.heelsBurgundy:hover{
+  transform: scale(1.1);
 }
-@keyframes spinning {
-  from {
-    transform: rotate(0deg);
+
+#heelsBurgundyDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.heelsBlack{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
+
+.heelsBlack:hover{
+  transform: scale(1.1);
+}
+
+#heelsBlackDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+.heelsPink{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.heelsPink:hover{
+  transform: scale(1.1);
+}
+
+#heelsPinkDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+/*WomenLoafers style*/
+.loafers{
+  padding-left: 20px;
+}
+
+.loafersBrown{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.loafersBrown:hover{
+  transform: scale(1.1);
+}
+
+#loafersBrownDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+
+.loafersBeige{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.loafersBeige:hover{
+  transform: scale(1.1);
+}
+
+#loafersBeigeDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+.loafersBurgundy{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.loafersBurgundy:hover{
+  transform: scale(1.1);
+}
+
+#loafersBurgundyDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+
+.loafersBlack{
+  width: 330px;
+  height: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.loafersBlack:hover{
+  transform: scale(1.1);
+}
+
+#loafersBlackDef {
+  font-family: "Signika Negative", sans-serif;
+  display: none;
+  color: #03025F;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  }
+
+.newSeasonTextRow{
+  height: 5vh;
+  background-color: #7A0505;
+  margin-bottom: 5px;
+
+}
+
+.newSeasonText{
+  font-family: "Signika Negative", sans-serif;
+  font-size: 18px;
+  color: white;
+
+} /*Finishing women page style*/
+
+
+/* About Us page style*/
+.aboutCompanyTextCol{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: navy;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 18px;
+}
+.missiontext{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.aboutCompany{
+  margin-left: 20px;
+}
+.aboutCompanyRow {
+  height: 85vh;
+  margin-bottom: 5px;
+
+}
+
+.storeImgCol {
+  background-image: url(../imgs/aboutUs/storeImage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.CommentMap{
+  margin-bottom: 5px;
+  height: 85vh;
+
+}
+
+.costumerCommentFormCol{
+
+}
+
+.submitComment{ 
+  width: 80%;
+  background-color:#076E18;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 3px;
+  height: 5vh;
+  font-weight: bold;
+}
+
+#comment{
+  height: 25vh;
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+
+#email{
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+#name{
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0.1); 
+  
+  
+}
+.commentForm{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+#emailError{
+  font-weight: normal;
+  font-size: 15px;
+  color: red;
+}
+.agreement{
+  font-weight: normal;
+}
+.googleMap{
+  width: 100%;
+  height: 100%;
+}
+.footer{
+  color: Navy;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+

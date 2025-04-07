@@ -71,13 +71,13 @@
           <nav class="navbar navbar-expand-sm">
             <ul class="navbar-nav gap-4">
               <li class="nav-item">
-                <a class="nav-link nitem" href="./pages/newin.html">New In</a>
+                <a class="nav-link nitem" href="./index.html">New In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nitem" href="./pages/women.html">Women</a>
+                <a class="nav-link nitem" href="./index.html">Women</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nitem" href="./pages/men.html">Men</a>
+                <a class="nav-link nitem" href="./index.html">Men</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nitem" href="./index.html">About Us</a>
@@ -169,23 +169,16 @@
         </div>
         <!-- Closing businessHoursCol-->
       </div>
-      <img
-        id="lottery"
-        src="./imgs/index/wheel.png"
-        alt="Wheel"
-        class="spinwheel rotate"
-      />
       <!-- Closing contact information row-->
+      <div class="row footer">
+         <footer class="footer">
+            <p class="copyright">© Angirmaa/Xinming 2025</p>
+        </footer>
+      </div>
+       <!-- Closing footer row--> 
     </div>
     <!-- Closing mainContainer-->
-    <script>
-      //Lottery
-      const lottery = document.getElementById("lottery");
-      lottery.addEventListener("click", () => {
-        const randomNum = Math.floor(Math.random() * 101);
-        alert(`Congrats, you got ${randomNum}% Off 🎁`);
-      });
-    </script>
+
     <script>
       //Scroll to content
       document.getElementById("bag").addEventListener("click", function () {
