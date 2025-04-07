@@ -227,237 +227,251 @@
 .mbm5 {
   margin-bottom: -5px;
   font-family: "Roboto", sans-serif;
-  font-size:23px;
+  font-size: 23px;
   color: #021055;
   font-weight: bold;
 }
 .shopSubtitle {
   font-family: "Roboto", sans-serif;
-  font-size:18px;
+  font-size: 18px;
   color: #021055;
 }
 
 .nitem {
   font-family: "Roboto", sans-serif !important;
 }
-.nav-item{
-  font-family:"Roboto", sans-serif;
+.nav-item {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
-
 }
 
+.nicon {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.nicon:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 /*Women page style*/
-.heels{
+.heels {
   padding-left: 20px;
 }
 
-.heelsWhite{
+.heelsWhite {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.heelsWhite:hover{
+.heelsWhite:hover {
   transform: scale(1.1);
 }
-#price{
-  font-family:"Roboto", sans-serif;
+#price {
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
-
 }
 #heelsWhiteDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-.heelsBurgundy{
+.heelsBurgundy {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+}
+.spinwheel {
+  position: fixed;
+  background-color: white;
+  padding: 2px;
+  bottom: 30px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
 
-.heelsBurgundy:hover{
+.heelsBurgundy:hover {
   transform: scale(1.1);
 }
 
 #heelsBurgundyDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-.heelsBlack{
+.heelsBlack {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.heelsBlack:hover{
+.heelsBlack:hover {
   transform: scale(1.1);
 }
 
 #heelsBlackDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-.heelsPink{
+.heelsPink {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.heelsPink:hover{
+.heelsPink:hover {
   transform: scale(1.1);
 }
 
 #heelsPinkDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
 /*WomenLoafers style*/
-.loafers{
+.loafers {
   padding-left: 20px;
 }
 
-.loafersBrown{
+.loafersBrown {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.loafersBrown:hover{
+.loafersBrown:hover {
   transform: scale(1.1);
 }
 
 #loafersBrownDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-
-.loafersBeige{
+.loafersBeige {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.loafersBeige:hover{
+.loafersBeige:hover {
   transform: scale(1.1);
 }
 
 #loafersBeigeDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-.loafersBurgundy{
+.loafersBurgundy {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.loafersBurgundy:hover{
+.loafersBurgundy:hover {
   transform: scale(1.1);
 }
 
 #loafersBurgundyDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
+}
 
-
-.loafersBlack{
+.loafersBlack {
   width: 330px;
   height: 400px;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.loafersBlack:hover{
+.loafersBlack:hover {
   transform: scale(1.1);
 }
 
 #loafersBlackDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
-  color: #03025F;
+  color: #03025f;
   background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
-  }
-
-.newSeasonTextRow{
-  height: 5vh;
-  background-color: #7A0505;
-  margin-bottom: 5px;
-
 }
 
-.newSeasonText{
+.newSeasonTextRow {
+  height: 5vh;
+  background-color: #7a0505;
+  margin-bottom: 5px;
+}
+
+.newSeasonText {
   font-family: "Signika Negative", sans-serif;
   font-size: 18px;
   color: white;
-
 } /*Finishing women page style*/
 
-
 /* About Us page style*/
-.aboutCompanyTextCol{
+.aboutCompanyTextCol {
   background-color: rgba(0, 0, 0, 0.1);
   color: navy;
   font-family: "Signika Negative", sans-serif;
   font-size: 18px;
 }
-.missiontext{
+.missiontext {
   margin-top: 60px;
   margin-left: 20px;
 }
 
-.aboutCompany{
+.aboutCompany {
   margin-left: 20px;
 }
 .aboutCompanyRow {
   height: 85vh;
   margin-bottom: 5px;
-
 }
 
 .storeImgCol {
@@ -466,19 +480,17 @@
   background-position: center;
 }
 
-.CommentMap{
+.CommentMap {
   margin-bottom: 5px;
   height: 85vh;
-
 }
 
-.costumerCommentFormCol{
-
+.costumerCommentFormCol {
 }
 
-.submitComment{ 
+.submitComment {
   width: 80%;
-  background-color:#076E18;
+  background-color: #076e18;
   color: white;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -488,59 +500,75 @@
   font-weight: bold;
 }
 
-#comment{
+#comment {
   height: 25vh;
   width: 80%;
   border-radius: 3px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-#email{
+#email {
   width: 80%;
   border-radius: 3px;
   border: none;
   height: 5vh;
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.1);
 }
-#name{
+#name {
   width: 80%;
   border-radius: 3px;
   border: none;
   height: 5vh;
-  background-color: rgba(0, 0, 0, 0.1); 
-  
-  
+  background-color: rgba(0, 0, 0, 0.1);
 }
-.commentForm{
+.commentForm {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
-#emailError{
+#emailError {
   font-weight: normal;
   font-size: 15px;
   color: red;
 }
-.agreement{
+.agreement {
   font-weight: normal;
 }
-.googleMap{
+.googleMap {
   width: 100%;
   height: 100%;
 }
-.footer{
+.footer {
   color: Navy;
   font-family: "Roboto", sans-serif;
   align-items: center;
   justify-content: center;
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
 
+.signika {
+  font-family: "Signika", sans-serif;
+}
+.error_tips {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  color: red;
+  display: none;
+}
 
-
-
+.signup {
+  background-image: url("../imgs/index/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0;
+}
