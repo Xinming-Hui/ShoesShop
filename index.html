@@ -174,6 +174,13 @@
         <!-- Closing businessHoursCol-->
       </div>
       <!-- Closing contact information row-->
+      <img
+        id="lottery"
+        src="./imgs/index/wheel.png"
+        alt="Wheel"
+        class="spinwheel rotate"
+      />
+
       <div class="row footer">
         <footer class="footer">
           <p class="copyright">© Angirmaa/Xinming 2025</p>
@@ -182,6 +189,15 @@
       <!-- Closing footer row-->
     </div>
     <!-- Closing mainContainer-->
+
+    <script>
+      //Lottery
+      const lottery = document.getElementById("lottery");
+      lottery.addEventListener("click", () => {
+        const randomNum = Math.floor(Math.random() * 101);
+        alert(`Congrats, you got ${randomNum}% Off 🎁`);
+      });
+    </script>
 
     <script>
       //Scroll to content

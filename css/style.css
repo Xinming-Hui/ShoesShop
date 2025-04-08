@@ -314,6 +314,19 @@
   border-radius: 50px;
 }
 
+.rotate {
+  animation: spinning 8s linear infinite;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .heelsBurgundy:hover {
   transform: scale(1.1);
 }
