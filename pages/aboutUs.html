@@ -34,12 +34,14 @@
               class="icon"
             />
           </a>
+          <a href="../index.html">
           <img
             id="bag"
             src="../imgs/index/ShoppingBagAvatar.png"
             alt="Bag"
             class="icon"
           />
+          </a>
           <img
             id="contactus"
             src="../imgs/index/contactAvatar.png"
@@ -82,7 +84,7 @@
                 <a class="nav-link nitem" href="./men.html">Men</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nitem" href="./aboutUs.html">About Us</a>
+                <a class="nav-link nitem" href="./about Us.html">About Us</a>
               </li>
             </ul>
           </nav>
@@ -117,26 +119,34 @@
 
       <div class="row CommentMap">
         <div class="col-sm-6 col-md-6 col-lg-6 costumerCommentFormCol">
-          <form class="commentForm">
+
+          <form id="commentForm">
             <label for="name">Name:</label><br />
             <input
               type="text"
               id="name"
               name="name"
-              minlength="3"
-              maxlength="20"
+              minlength="2"
+              maxlength="30"
               required
             /><br />
             <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" required />
+            <input 
+              type="email" 
+              id="email" 
+              required 
+              />
+            <p id="emailError">
+              Email is invalid, please check it.
+            </p>
             <label for="comment">Your feedback and insight:</label><br />
-            <textarea id="comment" name="comment" min="50"></textarea><br />
-            <label class="agreement">
-              I agree to your terms and conditions:
-              <input type="checkbox" /> </label
-            ><br />
+            <textarea 
+              class="comment" 
+              name="comment" 
+              minlength="30"
+              required 
+              ></textarea><br />
             <input
-              onclick="myFunction()"
               type="submit"
               class="submitComment"
               value="Submit"
@@ -190,12 +200,6 @@
         <!-- Closing businessHoursCol-->
       </div>
       <!-- Closing contact information row-->
-      <div class="row">
-        <div class="col-12 footer">
-          <footer>
-            <p class="copyright">© Angirmaa/Xinming 2025</p>
-          </footer>
-        </div>
       </div>
       <!-- Closing footer row-->
     </div>
@@ -208,6 +212,29 @@
         .addEventListener("click", function () {
           window.scrollTo(0, document.body.scrollHeight);
         });
+
+      //Comment email 
+      document
+        .getElementById("email")
+        .addEventListener("input", function () {
+          const errorMessage = document.getElementById("emailError");
+
+          const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+          if (!emailPattern.test(this.value)) {
+            errorMessage.style.display = "block";
+          } else {
+            errorMessage.style.display = "none";
+          }
+        });
+
+        // Submit button alert message 
+        const form = document.getElementById("commentForm");
+        form.addEventListener("submit", function(event) {
+        event.preventDefault(); 
+        alert("Thank you for your feedback!");
+        });
+
     </script>
 
     <script
