@@ -306,10 +306,7 @@
 .heelsWhite:hover {
   transform: scale(1.1);
 }
-#price {
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-}
+
 #heelsWhiteDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
