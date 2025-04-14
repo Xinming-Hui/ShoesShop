@@ -105,17 +105,15 @@
   font-weight: bold;
 }
 .shoppingButtonWomen {
-  color: white;
+  color: #720303;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
   border: none;
   cursor: pointer;
   transition: transform 0.3s ease;
-  width: 200px;
-  background-color: #4b4b4e;
+  background-color: lightgrey;
   border-radius: 5px;
-  margin-left: 43%;
 }
 .shoppingButtonWomen:hover {
   transform: scale(1.2);
@@ -150,7 +148,7 @@
 }
 
 .shoppingButtonMan {
-  color: white;
+  color: #620774;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -158,9 +156,8 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   width: 200px;
-  background-color: #4b4b4e;
+  background-color: lightgrey;
   border-radius: 5px;
-  margin-left: 43%;
 }
 .shoppingButtonMan:hover {
   transform: scale(1.2);
@@ -306,6 +303,7 @@
 .heelsWhite:hover {
   transform: scale(1.1);
 }
+
 #heelsWhiteDef {
   font-family: "Signika Negative", sans-serif;
   display: none;
@@ -493,7 +491,7 @@
 }
 
 .storeImgCol {
-  background-image: url(../imgs/aboutus/storeImage.jpg);
+  background-image: url(../imgs/aboutUs/storeImage.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -533,8 +531,8 @@
 
 @keyframes shake {
   0% { transform: translateX(0); }
-  25% { transform: translateX(-3px); }
-  50% { transform: translateX(3px); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
 }
 
 
