@@ -105,17 +105,15 @@
   font-weight: bold;
 }
 .shoppingButtonWomen {
-  color: white;
+  color: #720303;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
   border: none;
   cursor: pointer;
   transition: transform 0.3s ease;
-  width: 200px;
-  background-color: #4b4b4e;
+  background-color: lightgrey;
   border-radius: 5px;
-  margin-left: 43%;
 }
 .shoppingButtonWomen:hover {
   transform: scale(1.2);
@@ -150,7 +148,7 @@
 }
 
 .shoppingButtonMan {
-  color: white;
+  color: #620774;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -158,9 +156,8 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   width: 200px;
-  background-color: #4b4b4e;
+  background-color: lightgrey;
   border-radius: 5px;
-  margin-left: 43%;
 }
 .shoppingButtonMan:hover {
   transform: scale(1.2);
