@@ -1,8 +1,15 @@
+<!-- Author: Xinming Hui x24176141 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The unique ireland online shoes shop website aims to provide customer order their desired durable leather shoes quick and easy way. We offer a wide range of shoes for both women and men"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
     <title>Men</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -88,14 +95,14 @@
           </nav>
         </div>
       </div>
-      <div class="container mt-5">
+      <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-6 col-lg-4 mb-3 text-center">
             <div
-              class="card product d-flex align-items-center justify-content-center"
+              class="product d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src="../imgs/men/man0.jpeg"
+                src="../imgs/men/man0.jpg"
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
@@ -104,10 +111,10 @@
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
             <div
-              class="card product d-flex align-items-center justify-content-center"
+              class="product d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src="../imgs/men/man1.jpeg"
+                src="../imgs/men/man1.jpg"
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
@@ -116,10 +123,10 @@
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
             <div
-              class="card product d-flex align-items-center justify-content-center"
+              class="product d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src="../imgs/men/man2.jpeg"
+                src="../imgs/men/man2.jpg"
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
@@ -128,10 +135,10 @@
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
             <div
-              class="card product d-flex align-items-center justify-content-center"
+              class="product d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src="../imgs/men/man3.jpeg"
+                src="../imgs/men/man3.jpg"
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
@@ -140,10 +147,10 @@
           </div>
           <div class="col-6 col-lg-4 mb-3 text-center">
             <div
-              class="card product d-flex align-items-center justify-content-center"
+              class="product d-flex flex-column align-items-center justify-content-center"
             >
               <img
-                src="../imgs/men/man4.jpeg"
+                src="../imgs/men/man4.jpg"
                 alt="Men's shoes"
                 class="nicon d-block mx-auto"
               />
@@ -190,7 +197,7 @@
       const imgs = document.querySelectorAll("img");
       imgs.forEach((img) => {
         img.addEventListener("click", (e) => {
-          const priceE = e.target.closest(".card").querySelector(".iprice");
+          const priceE = e.target.closest(".product").querySelector(".iprice");
           priceE.style.display = "block";
         });
       });
